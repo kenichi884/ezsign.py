@@ -138,14 +138,14 @@ Pillowの機能を使って画像ファイルをEzSign 4.2の赤黒2色電子ペ
     例 inputfile.pngを赤黒白の画像に変換してoutputfile.pngに書き込む。赤色と判断する色相の範囲を±40とする。デフォルト20。値を大きくすると赤と判断される色の範囲が広くなる。小さくすると狭くなる。
     python conv2bwr.py --huerange 40  inputfile.png outputfile.png
 
-![outputfile_hue40.png](/images/MotoGPimage2_huerange40.png)
+![outputfile_hue40.png](/images/MotoGPimage2_hue40.png)
 
 ### --redvalue 赤色として反映させるピクセルの値の閾値を指定する
 
     例 inputfile.pngを赤黒白の画像に変換してoutputfile.pngに書き込む。赤色ピクセルとして反映されるピクセル値の閾値を200以上とする。デフォルト170。値を大きくすると濃い赤色でないと赤色が出力されず、小さくすると薄い赤色でも赤色と判断される。
     python conv2bwr.py --redvalue 100  inputfile.png outputfile.png
 
-![outputfile_value100.png](/images/MotoGPimage2_redvalue100.png)
+![outputfile_value100.png](/images/MotoGPimage2_value100.png)
 
 ## 変換例、表示例
 
